@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Team PANTS, People Applying Novel Technology Solutions
 
-Things you may want to cover:
+Members:
 
-* Ruby version
+Raphael Baltazar (https://www.linkedin.com/in/raphael-baltazar/)
 
-* System dependencies
+Oscar Flores (https://www.linkedin.com/in/os-flores/)
 
-* Configuration
+Trent Morgan (https://www.linkedin.com/in/trent-m-80a237129/)
 
-* Database creation
+Raymond Nguyen (https://www.linkedin.com/in/rnguyen4/)
 
-* Database initialization
+Brian Fonkert (https://www.linkedin.com/in/brian-fonkert)
 
-* How to run the test suite
+Frank Martinez (https://www.linkedin.com/in/frank-martinez-1a8b499a/)
 
-* Services (job queues, cache servers, search engines, etc.)
+-----------------------
 
-* Deployment instructions
+This is a Ruby on Rails ecommerce-like webapp for an independent fashion retailer
 
-* ...
+DB: PostgresQL
+
+gem: Spree ecommerce
+
+This is a project rebuild of https://github.com/baltosaurusrex/PANTSCIS4375 since we won't be able to make it on time with that project.
