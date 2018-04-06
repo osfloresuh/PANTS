@@ -10,5 +10,29 @@
         <property name="ApplicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="Rails pants_final: test" uuid="437c9350-e5db-4140-91e8-6cf571fd9e97">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/pants_final_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails pants_final: production" uuid="6bfb18b2-0aea-4e4f-90c3-6a8567142829">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:pants_final_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails pants_final: development" uuid="a48aa749-aba7-4977-a76d-0b7631c7328e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/pants_final_development</jdbc-url>
+    </data-source>
   </component>
 </project>
