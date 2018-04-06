@@ -27,7 +27,6 @@ development:
   database: pants_final_development
   username: postgres1
   password: postgres
-  url: <%= ENV['postgres://dqvghlvmxynoyg:d82b5f750d706817cabaafc3dc96bad5271cd63eadd3d2cd713e889290a35640@ec2-54-221-192-231.compute-1.amazonaws.com:5432/d8akqt882o3867'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
