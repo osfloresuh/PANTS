@@ -20,6 +20,7 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+    url: <%= ENV['postgres://dqvghlvmxynoyg:d82b5f750d706817cabaafc3dc96bad5271cd63eadd3d2cd713e889290a35640@ec2-54-221-192-231.compute-1.amazonaws.com:5432/d8akqt882o3867'] %>
 
 development:
   <<: *default
@@ -27,6 +28,7 @@ development:
   database: pants_final_development
   username: postgres1
   password: postgres
+    url: <%= ENV['postgres://dqvghlvmxynoyg:d82b5f750d706817cabaafc3dc96bad5271cd63eadd3d2cd713e889290a35640@ec2-54-221-192-231.compute-1.amazonaws.com:5432/d8akqt882o3867'] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -82,10 +84,11 @@ test:
 # You can use this database configuration with:
 #
 #   production:
-#     url: <%= ENV['DATABASE_URL'] %>
+    url: <%= ENV['    postgres://dqvghlvmxynoyg:d82b5f750d706817cabaafc3dc96bad5271cd63eadd3d2cd713e889290a35640@ec2-54-221-192-231.compute-1.amazonaws.com:5432/d8akqt882o3867'] %>
 #
 production:
   <<: *default
   database: pants_final_production
   username: pants_final
   password: <%= ENV['PANTS_FINAL_DATABASE_PASSWORD'] %>
+    url: <%= ENV['postgres://dqvghlvmxynoyg:d82b5f750d706817cabaafc3dc96bad5271cd63eadd3d2cd713e889290a35640@ec2-54-221-192-231.compute-1.amazonaws.com:5432/d8akqt882o3867'] %>
