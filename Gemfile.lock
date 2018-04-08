@@ -108,7 +108,7 @@ GEM
       devise (>= 2.1.0)
     erubi (1.7.1)
     execjs (2.7.0)
-    ffaker (2.8.1)
+    ffaker (2.9.0)
     ffi (1.9.23)
     ffi (1.9.23-x64-mingw32)
     ffi (1.9.23-x86-mingw32)
